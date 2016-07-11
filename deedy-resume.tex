@@ -1,0 +1,208 @@
+V/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Michael}{Gerakis}{ % Your name
+  \urlstyle{same}\url{http://github.com/mgerakis} \\ % Your website, LinkedIn profile or other web address
+  \href{mailto:mgerakis@bu.edu}{mgerakis@bu.edu} | 617.849.3246 % Your contact information
+  }
+
+  %----------------------------------------------------------------------------------------
+  % LEFT COLUMN
+  %----------------------------------------------------------------------------------------
+
+  \begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+    %------------------------------------------------
+    % About Me
+    %------------------------------------------------
+
+    % \section{About Me} 
+
+    % I am a c
+
+    % \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Education
+    %------------------------------------------------
+
+    \section{Education} 
+
+    \subsection{Boston University}
+
+    \descript{BA in Computer Science}
+    \location{Expected Jan 2017 | Boston, MA}
+    Conc. in Systems Engineering \\
+    College of Engineering \\
+    Dean's List (All Semesters) \\
+    \location{ Cum. GPA: 3.66 / 4.0 \\
+    Major GPA: 3.69 / 4.0}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Coursework
+    %------------------------------------------------
+
+    \section{Coursework}
+
+    Operating Systems (C/Assembly) \\
+    Distributed Systems (Go) \\
+    Software Engineering (Javascript) \\
+    Advanced Software Systems (C) \\
+    Fundamentals of Computer Systems (Java) \\
+    Probability in Computing (Python) \\
+    Concepts of Programming Languages (Haskell)
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Skills
+    %------------------------------------------------
+
+    \section{Skills}
+
+    \subsection{Programming}
+
+    \location{Most Used Languages}
+    JavaScript \textbullet{} Python \textbullet{} C \\
+    \sectionspace
+    \location{Familiar Languages}
+    C++ \textbullet{} Java \textbullet{} Shell \\
+    \textbullet{} Haskell \textbullet{} Assembly \textbullet{} Go
+
+    \sectionspace % Some whitespace after the section
+
+    %----------------------------------------------------------------------------------------
+
+  \end{minipage} % The end of the left column
+  \hfill
+  %
+  %----------------------------------------------------------------------------------------
+  % RIGHT COLUMN
+  %----------------------------------------------------------------------------------------
+  %
+  \begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+    %------------------------------------------------
+    % Experience
+    %------------------------------------------------
+
+    \section{Experience}
+
+    \runsubsection{Google}
+    \descript{| Software Engineering Intern}
+
+    \location{May 2016 – Aug 2016 | Mountain View, CA}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightitemize}
+      \item Worked on the YouTube Main Web App Team integrating Lighthouse, an open source developer's tool created by a part of the Chrome team, into YouTube as a continuous integration tool to prevent performance regression.
+      \item Worked between multiple teams and integrated various tools.
+      \item Used Es6 Javascript and Python.
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \runsubsection{Polis Politics}
+    \descript{| Full Stack Engineering Intern}
+
+    \location{July 2015 – May 2016 | Boston, MA}
+    \begin{tightitemize}
+      \item Created dynamic map visualization of precincts which outlined voter support and turnout for users to better understand their voter base.
+      \item Set up the necessary back-end infrastructure to support the map visualizations.
+      \item Used Es6 JavaScript, React, and NodeJS extensively.
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \runsubsection{BU Alumni Association}
+    \descript{| Student SQL Programmer}
+
+    \location{Sep 2015 – Feb 2016 | Boston, MA}
+    \begin{tightitemize}
+      \item Worked with a full-time programmer to collect, aggregate, and analyze data for the Boston University Alumni Association.
+    \end{tightitemize}
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Research
+    %------------------------------------------------
+
+    \section{Course Assistant}
+
+    \runsubsection{MET CS201}
+    \descript{| Spring and Summer Semesters, 2015}
+
+    \location{Feb 2015 – July 2015 | Boston, MA}
+    Graded assignments and held office hours to help students who were struggling get a better understanding of the course and its topics.
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+    % Awards
+    %------------------------------------------------
+
+    \section{Projects} 
+
+    \runsubsection{MyOS}
+    \descript{| Operating system made with partner in CS552}
+    \urlstyle{same}\url{http://github.com/mgerakis/myos} \\
+    A bare metal operating system made with partner Patrick Gomes in CS552, Operating Systems. This OS has a file system that stores up to 2MB of data. It also has support for multiple threads. The class was very loose and no starter code was given. All designing, prototyping, and testing was done by my partner and I.
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \runsubsection{Toggl CLI}
+    \descript{| A command line interface for the toggl.com API}
+    \urlstyle{same}\url{https://github.com/mgerakis/TogglAPIWrapper} \\
+    A command line interface for the Toggl API, which I wrote to make it mor efficient to log hours while working. This allowed me to describe my work, log and view hours without having to go through the website.
+
+    \sectionspace % Some whitespace after the section
+
+    %------------------------------------------------
+
+    \runsubsection{C Web Server}
+    \descript{| A simple web server written in C}
+    \urlstyle{same}\url{https://github.com/mgerakis/C-Web-Server} \\
+    A simple web server written in C, as an assignment for CS410. The server provides a directory listing, serves a webpage with all assets, and runs server side scripts, with url parsing for parameters that can be used as arguments.
+
+    \sectionspace % Some whitespace after the section
+
+    %----------------------------------------------------------------------------------------
+
+  \end{minipage} % The end of the right column
+
+\end{document}
+
