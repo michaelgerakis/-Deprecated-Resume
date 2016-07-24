@@ -9,7 +9,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{resume}[2015/12/14 v1.3 Awesome Curriculum Vitae Class]
+\ProvidesClass{resume}[2016/07/24 v1.0 Resume Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
